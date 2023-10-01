@@ -38,6 +38,13 @@ public class Name {
         return test.matches(VALIDATION_REGEX);
     }
 
+    /**
+     * Compares the name lexicographically.
+     */
+    public int compareTo(Name name) {
+        // compare lexicographically
+        return this.fullName.compareTo(name.fullName);
+    }
 
     @Override
     public String toString() {
