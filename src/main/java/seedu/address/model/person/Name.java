@@ -42,8 +42,12 @@ public class Name {
      * Compares the name lexicographically.
      */
     public int compareTo(Name name) {
+
+        String thisUpperCaseName = this.fullName.toUpperCase();
+        String otherUpperCaseName = name.fullName.toUpperCase();
+
         // compare lexicographically
-        return this.fullName.compareTo(name.fullName);
+        return thisUpperCaseName.compareTo(otherUpperCaseName);
     }
 
     @Override
