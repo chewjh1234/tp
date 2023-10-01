@@ -147,4 +147,8 @@ public class UniquePersonList implements Iterable<Person> {
         }
         return true;
     }
+
+    public void sortByCourse() {
+//        internalList.sort((person1, person2) -> person1.getName().compareTo(person2.getName()));
+    }
 }
