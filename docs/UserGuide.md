@@ -756,8 +756,25 @@ _Details coming soon ..._
 --------------------------------------------------------------------------------------------------------------------
 
 ## FAQ
+**Q**: Why can't I run NUSCoursemates? <br>
+**A**: Ensure you have followed the instructions in the [Quick Start](#quick-start).
+
 **Q**: How do I install Java 11, the Java version required by NUSCourseMates?<br>
-**A**: You may download Java 11 from this [link](https://www.oracle.com/sg/java/technologies/javase/jdk11-archive-downloads.html).  
+**A**: * The method to check the Java version you use will be different for every operating system.
+* **Windows** users: <br>
+Click on the '**Windows**' key and search for '**Command Prompt**' <br>
+* **Mac** users: <br>
+Click on '**F4**' and search for '**Terminal**'
+* **Linux** users: <br>
+Click on '**Ctrl**' + '**Alt**' + '**T**' keys simultaneously
+* Once the application is open, type `java -version` and hit '**Enter/ Return**'.
+* The application should state your Java version, as shown in the red circle below:
+  <div style="margin-top: 10px; margin-bottom: 10px">
+     <img src="images/javaVersion.png" alt="javaVersion" width="600"/> 
+  </div>
+
+    * If you do not see `11`, or if you do not have Java installed, follow the instructions [here](https://www.codejava.net/java-se/download-and-install-java-11-openjdk-and-oracle-jdk) to download **Java 11**. 
+    * You may also download Java 11 from this [link](https://www.oracle.com/sg/java/technologies/javase/jdk11-archive-downloads.html).  
 
 **Q**: I accidentally closed the application. Is my data lost?<br>
 **A**: Fret not! NUSCoursemates saves your data after every change you make, so you won't lose any data.
@@ -765,8 +782,11 @@ _Details coming soon ..._
 **Q**: Do I need an active internet connection to use NUSCoursemates?<br>
 **A**: You can use NUSCoursemates offline, but you'll need an internet connection to download it to your device.  
 
+**Q**: I think I found a _bug_! How should I report it?<br>
+**A**: Thank you for finding a bug! You can email us at _NUSCoursemates@gmail.com_, or make a report in our Github repository [here](https://github.com/AY2324S1-CS2103T-T17-4/tp/issues). Your contributions will make NUSCoursemates a better application for everyone. 
+
 **Q**: How do I transfer my data to another Computer?<br>
-**A**: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous NUSCoursemates home folder.
+**A**: Install the application in the other computer. Afterwards, overwrite the empty data file it creates with the file that contains the data of your previous NUSCoursemates home folder.
 
 [Back to Table of Contents](#table-of-contents)
 
